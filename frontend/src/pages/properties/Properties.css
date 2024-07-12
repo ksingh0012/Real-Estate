@@ -1,0 +1,13 @@
+.properties-container{
+    gap: 2rem;
+}
+
+.properties-container .search-bar{
+   
+    width: clamp(12rem ,100%, 28rem);  /*clamp used for declaring min and max width in one row */
+    flex-wrap: nowrap;
+}
+
+.properties-container .search-bar input{
+    width: 70%;
+}
